@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Warung makan rumahan dengan menu harian dan harga terjangkau.">
+  <title>Beranda - Warung Makan berkah</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&amp;family=Rubik:wght@500;700&amp;display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-isi">
+      <a class="logo" href="index.html">Warung makan berkah</a>
+      <button class="tombol-menu" id="tombolMenu" type="button" aria-expanded="false" aria-controls="menuUtama" hidden>Menu</button>
+      <nav aria-label="Navigasi utama" id="menuUtama">
+        <ul class="daftar-nav">
+          <li><a href="index.html" aria-current="page">Beranda</a></li>
+          <li><a href="tentang.html">Tentang</a></li>
+          <li><a href="katalog.html">Katalog</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wadah hero-isi">
+        <div class="hero-teks">
+          <h1>Warung Makan Berkah menyediakan berbagai pilihan makanan rumahan yang lezat, enak, dan terjangkau.</h1>
+          <p class="tagline">Kami menyajikan makanan dengan bahan-bahan segar dan berkualitas, serta dimasak setiap hari untuk menjaga cita rasa dan kualitas hidangan..</p>
+          <a class="tombol" href="katalog.html">Lihat menu hari ini</a>
+          <a class="tombol tombol-garis" href="kontak.html">Pesan antar</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bagian wadah">
+      <h2>Sekilas tentang kami</h2>.
+      <p>Warung Makan berkah berdiri sejak 2020 dan melayani pekerja, mahasiswa, serta keluarga di sekitar Jl. Mawar 3, opas indah  Semua lauk dimasak setiap hari dengan bahan dari pasar pagi, tanpa pengawet.</p>
+    </section>
+
+    <section class="bagian bagian-warna">
+      <div class="wadah">
+        <h2>Tiga menu andalan</h2>
+        <div class="grid-unggulan">
+          <article class="kartu">
+            <img src="img/sate.jpg" width="800" height="600" alt="Daging ayam potongan">
+            <div class="kartu-isi">
+              <h3>sate ayam</h3>
+              <p>Sate daging ayam makanan berupa potongan daging ayam yang ditusuk menggunakan tusuk bambu, kemudian dibakar hingga matang. Disajikan dengan bumbu kacang yang gurih dan saus kecap yang nikmat..</p>
+            </div>
+          </article>
+          <article class="kartu">
+            <img src="img/Mie ayam.jpg" width="800" height="600" alt="Mie dengan tekstur kenyal">
+            <div class="kartu-isi">
+              <h3>mie Ayam</h3>
+              <p>Mie ayam hidangan mie dengan tekstur kenyal yang disajikan bersama potongan daging ayam berbumbu gurih, sayuran, dan kuah kaldu yang lezat. Cocok dinikmati sebagai makanan utama..</p>
+            </div>
+          </article>
+          <article class="kartu">
+            <img src="img/Empek palembang.jpg" width="800" height="600" alt="Makanan khas sumatra">
+            <div class="kartu-isi">
+              <h3>pempek palembang</h3>
+              <p>Pempek Palembang makanan khas Sumatera Selatan yang terbuat dari campuran ikan dan tepung sagu. Disajikan dengan kuah cuko bercita rasa asam, manis, dan pedas yang khas..</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wadah footer-isi">
+      <p>&copy; 2026 Warung Makan berkah. Buka setiap hari.</p>
+      <p>Jl. Mawar 3, opas indah, no 88 &middot; 0821-7968-1484</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
